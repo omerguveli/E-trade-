@@ -1,0 +1,45 @@
+.container header {
+    margin: auto;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(187, 183, 183);
+}
+
+.container header .button {
+    width: 50%;
+    font-size: 10px;
+    color: #333;
+    background-color: #f3f3f3;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+}
+/* header finished */
+article .aside {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    border-right: 2px solid rgb(187, 183, 183);
+    padding-left: 10px;
+    background: rgb(5, 5, 41);
+
+}
+article .products .wrap {
+    width: 20%;
+    height: auto;
+ }
+article .products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    article .products .wrap {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-right: 10px;
+        padding-left: 3rem;
+     }
